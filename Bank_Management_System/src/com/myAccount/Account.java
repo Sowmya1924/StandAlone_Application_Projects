@@ -53,15 +53,15 @@ public abstract class Account implements Serializable{
 		this.accbalance = accbalance;
 	}
 
-//	public void displayAccount() {
-//		
-//		System.out.println("AccountNo: "+getAccountNo());
-//		System.out.println("AccountHolderName:"+getAccountHolderName());
-//		System.out.println("AccountBalance: "+getAccbalance());
-//		System.out.println("Interest:"+calculateInterest());
-//		System.out.println("--------------------------------");
-//	}
-//	
+	public void displayAccount() {		
+		System.out.println("AccountNo: "+getAccountNo());
+		System.out.println("AccountHolderName:"+getAccountHolderName());
+		System.out.println("AccountBalance: "+getAccbalance());
+		System.out.println("Interest:"+calculateInterest());
+		System.out.println("--------------------------------");
+	}
+	
 	
 
 }
+
